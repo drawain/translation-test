@@ -1,0 +1,7 @@
+{
+  "main" : {
+    "errorMessage" : "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "widgetOf" : "% s Widget",
+    "new" : "Dies ist eine neue {{variable}} hier"
+  }
+}
