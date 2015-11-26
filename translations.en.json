@@ -1,0 +1,213 @@
+{
+  "main" : {
+    "title" : "Dashboard",
+    "errorMessage" : "An error occurred. Please try again later.",
+    "widgetOf" : "%s Widget",
+    "new" : "this is a new {{ variable }} here"
+  },
+  "widgets" : {
+    "results" : {
+      "title" : "Results",
+      "engaged" : "Opens",
+      "purchased" : "Purchases",
+      "clicked" : "Clicks",
+      "revenue" : "Revenue",
+      "CLTV" : "Lifetime Spend",
+      "openClickRatio" : "Click-to-open ratio",
+      "seeMore" : "View your performance on Trends",
+      "noDataToShow" : "No data for the selected time period could be found.",
+      "emptyState" : {
+        "title" : "No results to show",
+        "message" : "You have not launched any campaigns yet",
+        "button" : "How to View Results"
+      },
+      "footNote" : "Results are gathered only from email campaigns and attributed to the launch date."
+    },
+    "intelligence" : {
+      "title" : "Intelligence",
+      "range" : "Yesterday",
+      "averageCltv" : "Average Lifetime Spend",
+      "activeCltv" : "Active Lifetime Spend",
+      "CLTV" : {
+        "short" : "Lifetime Spend",
+        "long" : "Lifetime Spend"
+      },
+      "conversion" : "Conversion",
+      "contacts" : "Contacts",
+      "stage" : "Stage",
+      "stages" : {
+        "lead" : {
+          "short" : "Lead",
+          "long" : "Leads"
+        },
+        "first" : {
+          "short" : "First",
+          "long" : "First-time Buyers"
+        },
+        "active" : {
+          "short" : "Active",
+          "long" : "Active Customers"
+        },
+        "defecting" : {
+          "short" : "Defecting",
+          "long" : "Defecting Customers"
+        },
+        "inactive" : {
+          "short" : "Inactive",
+          "long" : "Inactive Customers"
+        }
+      },
+      "except" : "except %s inactive leads",
+      "seeMore" : "More details available in Smart Insight",
+      "noDataToShow" : "Subscribe to Smart Insight.",
+      "emptyState" : {
+        "title" : "No data to show",
+        "message" : "You don't have any smart data about your contacts yet",
+        "button" : "How to Get Smart Data"
+      },
+      "footNote" : "* except %s inactive leads"
+    },
+    "automation" : {
+      "title" : "Automation",
+      "range" : "Yesterday",
+      "activeCampaigns" : "Active campaigns",
+      "automatedSent" : "Automated delivery",
+      "automatedEngagement" : "Automated opens",
+      "automatedRevenue" : "Automated revenue",
+      "sent" : "Message deliveries",
+      "opened" : "Opens",
+      "clicked" : "Clicks",
+      "purchases" : "Purchases",
+      "seeMore" : "View related trends",
+      "noDataToShow" : {
+        "title" : "No automated campaigns were active yesterday.",
+        "titleWithTimeFrame" : "No automated campaigns were active in the selected time period.",
+        "callToAction" : "Start launching automated campaigns"
+      },
+      "emptyState" : {
+        "title" : "No program results to show",
+        "message" : "You don't have any programs set up yet",
+        "button" : "How to Set Up Programs"
+      },
+      "footNote" : "All metrics are attributed to email campaigns"
+    },
+    "dataManagement" : {
+      "title" : "Database Growth",
+      "created" : "Contacts created",
+      "contactsInDatabase" : "Contacts in your database",
+      "contactsInDatabaseYesterday" : "Contacts in your database yesterday",
+      "seeMore" : "More information on your new contacts",
+      "noDataToShow" : "Start importing contacts.",
+      "cannotShowContactsData" : "No data recorded for the given period.",
+      "emptyState" : {
+        "title" : "No contacts to show",
+        "message" : "You don't have any contacts in your database yet",
+        "button" : "How to Import Contacts"
+      },
+      "series" : {
+        "total" : "Total",
+        "available" : "Available (opt-in)",
+        "unavailable" : "Unavailable",
+        "withoutOptin" : "No opt-in",
+        "withoutEmail" : "Missing email",
+        "invalidEmail" : "Invalid email address"
+      }
+    },
+    "protoDataManagement" : {
+      "title" : "Data Management"
+    },
+    "contacts" : {
+      "title" : "Database Growth"
+    },
+    "campaigns" : {
+      "title" : "Email Campaigns",
+      "recent" : {
+        "title" : "Recent Email Campaigns",
+        "seeMore" : "Go to the email list",
+        "noDataToShow" : "No campaigns have been launched recently",
+        "sentOn" : "Sent on",
+        "sent" : "Sent",
+        "emailsDelivered" : "Emails delivered",
+        "ofTotal" : "of total",
+        "emails" : "emails",
+        "opens" : "Opens",
+        "deliveries" : "Deliveries",
+        "uniqueClicks" : "Unique clicks",
+        "clicks" : "Clicks"
+      },
+      "scheduled" : {
+        "title" : "Scheduled Email Campaigns",
+        "seeMore" : "Go to the email list",
+        "noDataToShow" : "No campaigns are currently scheduled for launch",
+        "type" : "Type",
+        "scheduledTo" : "Scheduled to",
+        "plannedVolume" : "Planned volume"
+      },
+      "seeMore" : "Go to the email list",
+      "live" : "Live"
+    },
+    "recentCampaigns" : {
+      "title" : "Recent Email Campaigns"
+    },
+    "scheduledCampaigns" : {
+      "title" : "Scheduled Email Campaigns"
+    },
+    "mobileEngagement" : {
+      "title" : "Mobile Engagement",
+      "clickOpenRatio" : "Clicks to opens on mobile",
+      "mobileOpensTotalOpensRatio" : "Opened on mobile",
+      "sent" : "Sent",
+      "mobileClicks" : "Mobile clicks",
+      "mobileOpens" : "Mobile opens",
+      "totalOpens" : "Total opens",
+      "seeMore" : "Best-performing devices",
+      "noDataToShow" : "No mobile engagement data could be found.",
+      "emptyState" : {
+        "title" : "No data on mobile",
+        "message" : "You don't have any data on mobile usage",
+        "button" : "How to Get Data on Mobile"
+      }
+    },
+    "protoChannels" : {
+      "title" : "Channels"
+    }
+  },
+  "trend" : {
+    "labels" : {
+      "descending" : "%s less than previous %s days",
+      "ascending" : "%s more than previous %s days",
+      "stagnate" : "Same as previous %s days"
+    }
+  },
+  "reset" : {
+    "button" : "Reset",
+    "confirm" : {
+      "title" : "Reset Dashboard",
+      "body" : "Are you sure you want to reset your dashboard settings?",
+      "ok" : "Yes",
+      "cancel" : "No"
+    }
+  },
+  "feedback" : {
+    "tooltip" : "Send feedback",
+    "button" : "Send Feedback",
+    "header" : "Send feedback",
+    "title" : "Let's Improve the Dashboard Together!",
+    "description" : "We don't just want to show you meaningful data - we also want to give you a great experience. Help us to make this happen by giving your feedback in the box below. We are interested in:",
+    "questions" : {
+      "question1" : "What data are you using on a daily basis?",
+      "question2" : "What is missing from the dashboard?",
+      "question3" : "What is confusing?",
+      "question4" : "And any other ideas..."
+    },
+    "scopeSelector" : "You are giving feedback on:",
+    "overallFeedback" : "The whole Dashboard",
+    "placeholder" : "In my opinion...",
+    "errorMessage" : "Something went wrong. Please try again.",
+    "sendButton" : "Send Feedback",
+    "successTitle" : "Thank you!",
+    "successText" : "Your feedback means a lot to us."
+  },
+  "yesterday" : "Yesterday",
+  "pastDays" : "Past %s days"
+}
